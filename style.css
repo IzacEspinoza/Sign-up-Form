@@ -6,16 +6,18 @@
 body{
     padding: 5px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    /* border: 10px double black; */
 }
 
+/* Whole dam form styling */
 .container{
     /* padding: 5px; */
     margin: 5px;
     display: flex;
     border: 5px double black;
 }
+/* ***************************** */
 
+/* Background section styling */
 .background, .image-backdrop{
     /* padding: 0px; */
     border: 2px solid black;
@@ -35,23 +37,67 @@ body{
     position: relative;
     top: 20px;
 }
+/* *************************** */
 
+/* Form section styling */
 .form{
     border: 2px solid black;
     background-color: whitesmoke;
+    /* padding: 1rem; */
 }
 
 .info, .form-inputs, .log-in{
     padding: 20px;
+    /* margin: 5px; */
 }
+/* ************************************* */
 
+/* Info section */
 .info{
     width: 40%;
     font-weight: bold;
+    margin: 1rem;
 }
 
 #hook{
     position: relative;
     top: 20px;
 }
+/* ************************* */
+
+/* Form styling */
+.form-inputs{
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px black;
+}
+
+#form-header{
+    position: relative;
+    top: -1rem;
+}
+
+input, label{
+    display: block;
+}
+
+.inner{
+    float: left;
+    margin-right: 20px;
+
+    position: relative;
+    left: -10rem;
+}
+
+.fields{
+    border: none;
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+/* ******************* *********8*/
+
+
+
 

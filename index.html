@@ -1,62 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Izacs Sign-up form!</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Container for the whole form -->
     <div class="container">
+      <!-- Bg Image for form -->
+      <div class="background">
+        <div class="image-backdrop">
+          <img src="" alt="logo" />
+          <h3>ODIN</h3>
+        </div>
+      </div>
 
-        <!-- Bg Image for form -->
-        <div class="background">
-            <div class="image-backdrop">
-                <img src="" alt="logo">
-                <h3>ODIN</h3>
-            </div>
+      <!-- other side with actual form on it  -->
+      <div class="form">
+        <!-- Info at top -->
+        <div class="info">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            to get started!
+          </p>
+          <span id="hook"><p>Lets GOOOOOO!</p></span>
         </div>
 
-        <!-- other side with actual form on it  -->
-        <div class="form">
+        <!-- part with actual form and inputs -->
+        <div class="form-inputs">
+          <h3 id="form-header">LETS FOOKIN DO THIS!</h3>
 
-            <!-- Info at top -->
-            <div class="info">
-                <p>
-                    This is not a real online service! 
-                    You know you need something like this in your life to help you realize your deepest dreams.  
-                    Sign up to get started!
-                </p>
-                <span id="hook"><p>Lets GOOOOOO!</p></span>
-            </div>
+          <form action="">
+            <fieldset class="fields">
+              <div class="inner">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="first-name"
+                  placeholder="Lionel"
+                  required
+                />
+              </div>
 
-            <!-- part with actual form and inputs -->
-            <div class="form-inputs">
-                <h3 id="header">LETS FOOKIN DO THIS!    </h3>
+              <div class="inner">
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  name="last-name"
+                  placeholder="Messi"
+                  required
+                />
+              </div>
+            </fieldset>
 
-                <form action="">
+            <fieldset class="fields">
+              <div class="inner">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="messi010@goat.com"
+                  required
+                />
+              </div>
 
-                    <input type="text" id="first-name" name="first-name" placeholder="Lionel" required>
-                    <input type="text" id="last-name" name="last-name" placeholder="Messi" required>
+              <div class="inner">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="209 123 4465"
+                />
+              </div>
+            </fieldset>
 
-                    <input type="email" id="email" name="email" placeholder="messi010@goat.com" required>
-                    <input type="tel" id="phone" name="phone" placeholder="209 123 4465">
-                    <input type="password" id="password" name="password" required>
-                    <input type="password" id="confirm-pass" name="confirm-pass" required>
+            <fieldset class="fields">
+              <div class="inner">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required />
+              </div>
 
-                </form>
-            </div>
-
-            <!-- section with the submit button and log in option -->
-            <div class="log-in">
-                <button id="create-account" type="submit">Create Account</button>
-                <span id="log-in"><p>Already a user? <a href="">Login here!</a></p></span>
-            </div>
+              <div class="inner">
+                <label for="confirm-pass">Confirm Password</label>
+                <input
+                  type="password"
+                  id="confirm-pass"
+                  name="confirm-pass"
+                  required
+                />
+              </div>
+            </fieldset>
+          </form>
         </div>
+
+        <!-- section with the submit button and log in option -->
+        <div class="log-in">
+          <button id="create-account" type="submit">Create Account</button>
+          <span id="log-in"
+            ><p>Already a user? <a href="">Login here!</a></p></span
+          >
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
