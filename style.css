@@ -13,7 +13,7 @@ body{
     /* padding: 5px; */
     margin: 5px;
     display: flex;
-    border: 5px double black;
+    border: 5px double black;/* Remove or edit this later */
 }
 /* ***************************** */
 
@@ -96,7 +96,37 @@ input, label{
     display: flex;
     justify-content: space-evenly;
 }
-/* ******************* *********8*/
+/* ******************* **********/
+
+/*Log in styling*/
+.log-in{/*Container*/
+    padding: 2rem;
+    height: 150px;
+}
+
+#create-account{
+    padding: 5px;
+    width: 15rem;
+    
+
+    background-color: #596D48;
+    border: 5px double #fff;
+    border-radius: 5px;
+
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#log-in p{
+    margin: 1rem;
+}
+
+#log-in a{/*log in link*/
+    color: #596D48;
+    text-decoration: none;
+}
+/*********************************/
 
 
 
