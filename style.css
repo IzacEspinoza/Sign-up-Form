@@ -8,6 +8,12 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* @font-face {
+    font-family: Norse;
+    src: local("/fonts/Norse-Bold.otf");
+  } */
+  
+
 /* Whole dam form styling */
 .container{
     /* padding: 5px; */
