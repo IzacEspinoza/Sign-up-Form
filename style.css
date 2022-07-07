@@ -31,18 +31,29 @@ body{
 }
 
 .background{
-    background-image: url();
-    background: teal;
+    background-image: url('./images/form_backdrop.jpg');
+    background-repeat: no-repeat;
+    /* background: teal; */
     width: 30%;
     font-family: 'Caesar Dressing', cursive;
 }
 
 .image-backdrop{
     width: 100%;
+    height: auto;
     display: flex;
-    background-color: rgba(0,0,0,0.88);
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    border: none;
     position: relative;
-    top: 20px;
+    top: 100px;
+}
+
+#logo{
+    width: 90px;
+    height: 90px;
+    margin: 10px;
 }
 /* *************************** */
 
