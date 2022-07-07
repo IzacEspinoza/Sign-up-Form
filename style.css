@@ -108,8 +108,12 @@ input{
 
 input:focus{
     outline: none /* !important */;
-    border:2px solid #596D48;
+    border:2px solid #2390de;
     box-shadow: 0 0 10px #719ECE;
+}
+
+input:hover{
+    box-shadow: 2px 3px 2px #596D48;
 }
 
 .inner{
@@ -147,6 +151,10 @@ input:focus{
     font-weight: bold;
 }
 
+#create-account:hover{
+    box-shadow: 10px 5px 5px black;
+}
+
 #log-in p{
     margin: 1rem;
     font-size: small;
@@ -155,6 +163,10 @@ input:focus{
 #log-in a{/*log in link*/
     color: #596D48;
     text-decoration: none;
+}
+
+#log-in a:hover{
+    text-decoration: underline;
 }
 /*********************************/
 

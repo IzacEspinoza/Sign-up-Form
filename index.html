@@ -42,7 +42,7 @@
         <div class="form-inputs">
           <h3 id="form-header">LETS DO THIS!</h3>
 
-          <form action="">
+          <form action="#" method="get">
             <fieldset class="fields">
               <div class="inner">
                 <label for="first-name">First Name</label>
@@ -51,7 +51,6 @@
                   id="first-name"
                   name="first-name"
                   placeholder="Lionel"
-                  required
                 />
               </div>
 
@@ -62,14 +61,13 @@
                   id="last-name"
                   name="last-name"
                   placeholder="Messi"
-                  required
                 />
               </div>
             </fieldset>
 
             <fieldset class="fields">
               <div class="inner">
-                <label for="email">Email</label>
+                <label for="email">Email *</label>
                 <input
                   type="email"
                   id="email"
@@ -92,12 +90,12 @@
 
             <fieldset class="fields">
               <div class="inner">
-                <label for="password">Password</label>
+                <label for="password">Password *</label>
                 <input type="password" id="password" name="password" required />
               </div>
 
               <div class="inner">
-                <label for="confirm-pass">Confirm Password</label>
+                <label for="confirm-pass">Confirm Password *</label>
                 <input
                   type="password"
                   id="confirm-pass"
@@ -106,9 +104,7 @@
                 />
               </div>
             </fieldset>
-          </form>
         </div>
-
         <!-- section with the submit button and log in option -->
         <div class="log-in">
           <button id="create-account" type="submit">Create Account</button>
@@ -116,6 +112,7 @@
             <p>Already a user? <a href="">Log in</a></p>
           </span>
         </div>
+    </form>
       </div>
     </div>
   </body>
